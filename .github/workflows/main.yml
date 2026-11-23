@@ -1,0 +1,40 @@
+name: Extract Doll Hunt ZIP
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract Doll Hunt ZIP
+        run: |
+          mkdir extracted
+          ZIP=$(find . -maxdepth 1 -name "*.zip" | head -n 1)
+          unzip -o "$ZIP" -d extracted
+
+          GAME=$(find extracted -name index.html -type f | head -n 1)
+          ROOT=$(dirname "$GAME")
+
+          cp -r "$ROOT"/. .
+
+          rm -rf extracted
+          rm -f *.zip
+
+      - name: Commit extracted game files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Extract Doll Hunt game files" || echo "No changes"
+          git push
