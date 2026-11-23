@@ -1,0 +1,6 @@
+DOLL HUNT v28 CHARACTER SLIDER + HD VISUALS
+
+- Added swipe left/right and arrow controls to browse every doll skin.
+- Selection is synchronized with the existing character buttons and saved character system.
+- Improved ULTRA rendering pixel-ratio caps (touch 1.65, desktop 2.25), shadow resolution (touch 2048 / desktop 4096), HIGH caps, and anisotropic filtering up to 12 where supported.
+- These are code-level graphics upgrades; full-device FPS and visual testing is not performed here.

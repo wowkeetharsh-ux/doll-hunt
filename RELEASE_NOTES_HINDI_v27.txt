@@ -1,0 +1,31 @@
+DOLL HUNT v27 — CHARACTER ROSTER (sab naye characters add + settle)
+
+Maine har character ko uske look aur weapon ke hisaab se role diya hai:
+
+SEEKERS (hunters)
+- Dwarf Knight    -> Seeker, HAMMER (pehle se tha)
+- Orc Berserker   -> Seeker, MACE (spiked mace) — sabse lamba, heavy hunter
+- Human Assassin  -> Seeker, DAGGER (stiletto)
+- Farmer          -> Seeker, TOOL (farm tool)
+
+HIDERS (naye Doll skins — CHOOSE DOLL screen par 4 naye buttons)
+- Kite Kid
+- Puffy Kid (kid in a puffy coat) — sabse chhota, cosy hider
+- Star Girl (choral star girl)
+- Choir Singer
+
+TAVERN CORNER (map mein ek khali jagah par automatic place hota hai, collision ke saath)
+- Tavern table set (table + 2 chairs)
+- Hand crossbow — table ke upar rakha hua
+- Standing Percussionist — table ke paas idle animation wala NPC drummer
+
+KAISE KAAM KARTA HAI
+- 4 AI seekers: SEEKER 1 = Dwarf, 2 = Orc, 3 = Assassin, 4 = Farmer. Sab Idle/Walk/Run animation use karte hain.
+- Start screen par naya button "SEEKER: <name>" — tap karke class badlo. Practice Room mein aapka first-person weapon badalta hai (HAMMER / MACE / DAGGER / TOOL) aur action button ka naam bhi.
+- Hider skins GLB character ke roop mein Idle/Walk/Run animation ke saath chalte hain. Paint Studio sirf procedural dolls (Porcelain/Block/Plush/Shadow) par kaam karta hai.
+- Practice Room mein HIDER 2, HIDER 4... kid characters ban kar chhupte hain.
+- Models lazy-load hote hain (pehle dwarf, phir baaki), taaki start fast rahe. Koi GLB load na ho to v26 ke purane visuals chalte rahte hain.
+- ONLINE: server/ folder update hua hai (naye skin ids + seeker class sync). Doosre players ko chosen character tabhi dikhega jab server dobara deploy karoge. Purane server par game chalta hai, bas online character skins porcelain par wapas aa jaate hain.
+
+DHYAN DENE WALI BAAT
+- Static checks aur mock tests pass hain, lekin Android WebView / Xiaomi Pad par asli look, first-person weapon ki position aur FPS device par test karna zaroori hai (TEST_CHECKLIST_v27.md dekho).

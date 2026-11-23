@@ -1,0 +1,26 @@
+DOLL HUNT v26 — REALISTIC NATURAL EDITION
+
+Primary game entry:
+- index.html
+- Doll_Hunt_v26/index.html (identical copy)
+
+Full server project:
+- server/package.json
+- server/tsconfig.json
+- server/src/index.ts
+- server/src/app.config.ts
+- server/src/rooms/DollHuntState.ts
+- server/src/rooms/DollHuntRoom.ts
+
+Deployment:
+- render.yaml
+- SERVER_DEPLOY_RENDER.md
+
+Visual update:
+- mineral greige plaster walls
+- muted sage accent walls
+- walnut lower wall paneling
+- natural oak/walnut floor
+- travertine/limestone kitchen tile
+- dark bronze window frames and muted realistic glazing
+- controlled lighting/exposure across graphics presets

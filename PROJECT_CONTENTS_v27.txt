@@ -1,0 +1,5 @@
+DOLL HUNT v27 — CHARACTER ROSTER
+Entry: index.html (identical copy in Doll_Hunt_v27/index.html)
+New assets/: orc-berserker-base, human-assassin-base, farmer-base, kite-kid-base, kid-in-a-puffy-coat-base, choral-star-girl-base, choir-singer-base, standing-percussionist-base, taverna-table-set-6b4bc1, hand-crossbow-77a4c7 (.glb)
+Server: server/src/rooms/DollHuntRoom.ts updated (skin ids + seeker class sync). Redeploy for online character sync.
+Notes: RELEASE_NOTES_HINDI_v27.txt, VERSION_NOTES_v27_CHARACTER_ROSTER.md, TEST_CHECKLIST_v27.md, VALIDATION_REPORT_v27.md

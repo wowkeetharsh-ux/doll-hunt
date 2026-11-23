@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: doll-hunt-server
+    runtime: node
+    rootDir: server
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm run start:prod
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production

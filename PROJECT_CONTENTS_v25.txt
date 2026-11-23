@@ -1,0 +1,16 @@
+Doll_Hunt_v25 full project contents:
+- index.html
+- Doll_Hunt_v25/index.html (identical client copy)
+- server/package.json
+- server/tsconfig.json
+- server/src/index.ts
+- server/src/app.config.ts
+- server/src/rooms/DollHuntRoom.ts
+- server/src/rooms/DollHuntState.ts
+- render.yaml
+- README.md
+- VERSION_NOTES_v25.md
+- TEST_CHECKLIST_v25.md
+- VALIDATION_REPORT_v25.md
+- RELEASE_NOTES_HINDI_v25.txt
+- Existing prior release notes, deployment notes and research notes from v24

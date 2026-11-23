@@ -1,0 +1,24 @@
+DOLL HUNT — ALMIRAH INTERACTION UPDATE (v26 BASE)
+
+Base project: Doll_Hunt_v26_REALISTIC_NATURAL_HOME.zip
+Runtime asset: assets/almirah.fbx (the supplied FBX model)
+Source asset: assets/almirah.blend (the supplied editable Blender source)
+
+What changed:
+- Added the supplied almirah model to all eight existing room hiding locations.
+- Kept the v26 map, room layout, character, hide/seeker systems, controls, UI, and multiplayer code otherwise intact.
+- Added a two-step interaction during the Doll hide phase:
+  1. Walk close to an almirah and press OPEN ALMIRAH.
+  2. Press HIDE INSIDE ALMIRAH to enter; doors close while the Doll hides.
+  3. Use the existing exit interaction to leave; the almirah opens.
+- The open state uses hinged proxy doors and a searchable interior; the closed state uses the supplied FBX model.
+- If the browser cannot load FBXLoader or the FBX asset, the procedural almirah remains as a fallback so hiding remains available.
+
+Important test note:
+- JavaScript syntax and ZIP integrity are checked in this package.
+- Actual visual verification of the imported FBX and live in-game interaction on Android still requires opening the game in the target WebView/browser with network access to the existing Three.js CDNs.
+
+Model appearance assets:
+- assets/wood_table_diffuse.jpg and assets/wood_table_roughness.jpg are recovered from the supplied Blender project and applied to the almirah body.
+- assets/almirah_sticker.png is recovered from the Blender project and applied to the sticker mesh.
+- assets/wood_table_displacement.png is retained as an auxiliary source texture.

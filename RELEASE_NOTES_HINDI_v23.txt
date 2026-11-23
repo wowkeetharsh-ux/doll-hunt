@@ -1,0 +1,28 @@
+DOLL HUNT v23 — COLORFUL HOME EDITION
+
+इस version में पुराने Dark Stealth look को बदलकर तुम्हारे दिए reference जैसा colorful home-interior look रखा है।
+
+मुख्य बदलाव:
+1. दीवारों पर cream floral wallpaper — sage बेल, पत्तियाँ और छोटे गुलाबी/गोल्ड फूल।
+2. नीचे cream raised wooden wall panels / wainscoting।
+3. Warm oak / golden wooden rails और trims।
+4. Bright turquoise + lime split-glass windows।
+5. Pastel terracotta / rose accent brick walls।
+6. Warm honey-oak plank floor और pale aqua/ivory kitchen tiles।
+7. Ceiling panels, cabinets, sofa fabric, rugs, furniture और props की palette भी light/colorful की।
+8. Lighting, ambient fill और exposure बढ़ाया; fog हल्का किया।
+9. Paint Studio में Floral Wallpaper pattern जोड़ा; Match Surface पर wallpaper design भी sample होगा।
+
+पुराने features सुरक्षित रखे गए हैं:
+- Player ID और Firebase Firestore sync (Google login disabled)।
+- Doll selection, Practice, AI difficulty, Hider powers, coins/XP/profile।
+- 5–8 player team rules और Colyseus multiplayer server project।
+- Wall/ceiling attach, climb, free camera, paint studio और hiding spots।
+- Responsive HUD, Settings, Pause, Match Summary और graphics quality controls।
+
+ध्यान दें:
+- Android WebView / Xiaomi Pad 6 पर actual rendered graphics और FPS test अभी करना बाकी है।
+- Live multiplayer server deploy और 5–8 phone testing बाकी है।
+- TypeScript syntax check हुआ है; पूरा npm dependency build इस environment में verify नहीं हुआ।
+
+पहले Offline Practice में colorful environment और Paint Studio का Floral Wallpaper Match Surface टेस्ट करो।

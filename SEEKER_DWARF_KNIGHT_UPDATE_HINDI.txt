@@ -1,0 +1,12 @@
+DOLL HUNT — V26 + DWARF KNIGHT HAMMER SEEKER
+
+- User-supplied dwarf-knight-base.glb is included in assets/.
+- Seeker AI and remote online Seekers use the animated dwarf-knight model.
+- Available GLB clips: Idle, Walk, Run. Walk/Idle are switched during movement.
+- The Seeker first-person weapon is the maul/hammer from the supplied model (procedural fallback remains if model loading fails).
+- The action button is HAMMER. A close-range swing can tag an exposed Doll; it cannot hit across the room.
+- AI Seekers swing when they finish inspecting an occupied hiding spot or catch a visible Doll.
+- Online server validates close-range melee reach and broadcasts swing animation events.
+- Existing v26 map, furniture, almirahs, hide/seek flow, mobile controls and UI are retained.
+
+NOTE: JavaScript syntax, ZIP integrity and server TypeScript compilation are checked where available. Actual Android/browser 3D rendering, orientation and live multiplayer still need device testing.

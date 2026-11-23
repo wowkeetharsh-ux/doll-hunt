@@ -1,0 +1,14 @@
+DOLL HUNT v37 - ONLINE MATCHMAKING CONFIG UPDATE
+
+Online match rules updated:
+- 15-second matchmaking window for real players.
+- Maximum 8 total players.
+- Full match role target: 3 Dolls + 5 Seekers.
+- Empty slots are filled by server-controlled AI bots after the matchmaking window.
+- Existing Colyseus online gameplay/server logic retained.
+
+Important:
+- The Firebase Realtime Database settings screenshot is not currently read by the Colyseus matchmaking server; these settings are applied as server constants in this build.
+- The server has not been deployed. Live matchmaking requires the updated server to be deployed.
+- AI identities are not shown in the game's UI as bot labels, but server state still includes internal isBot flags.
+- No real-device or live multi-player test performed.

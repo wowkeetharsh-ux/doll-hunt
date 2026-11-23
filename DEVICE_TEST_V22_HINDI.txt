@@ -1,0 +1,12 @@
+DOLL HUNT v22 — Xiaomi Pad 6 par test
+
+1. ZIP extract karke v22 ka index.html / AppMint build use karo.
+2. Game ko landscape mode mein kholo. Settings mein Graphics = HIGH rakho.
+3. Doll ko wall par attach karo. Height 25% karo. Camera ka view normal insaan ki aankh ki height par rehna chahiye; Doll ki body apni jagah rahe.
+4. Paint Studio kholo. Upar right red × dabao. Sirf panel band hona chahiye, Doll detach nahi honi chahiye.
+5. 🎨 PAINT button dabakar panel dobara kholo. Pehle ka selected colour/pattern bana rehna chahiye.
+6. Panel band karke wall climb ▲/▼ chalao, phir Paint panel dobara kholo.
+7. Kam se kam 10 minute chalao. FPS dekho. Agar 30 se neeche baar-baar jaaye to Graphics MEDIUM karo.
+8. Portrait aur landscape dono mein controls overlap nahi hone chahiye.
+
+Report karne ke liye: screenshot + FPS number + kis step par problem hui.

@@ -1,0 +1,13 @@
+DOLL HUNT v29 — REAL 3D CHARACTER CAROUSEL
+
+Fixed the character-selection screen to show actual 3D GLB hider characters.
+- Replaced the text-tile selection experience with one large 3D model stage.
+- Swipe left/right on the model area to cycle through Kite Kid, Puffy Kid, Star Girl and Choir Singer.
+- Added previous/next arrow controls and keyboard arrow support.
+- Selected model name and carousel position update together.
+- Selecting a model applies the same skin to the live player and saves it locally.
+- GLB animations are played in the preview when the file contains animation clips.
+- Preview rendering pauses while the selection screen is closed to reduce mobile GPU use.
+- Existing seeker classes, maps, online play, and other gameplay systems remain in the package.
+
+Note: Device-level FPS, touch feel, and live server gameplay still require on-device testing.

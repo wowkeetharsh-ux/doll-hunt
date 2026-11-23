@@ -1,0 +1,11 @@
+DOLL HUNT v31
+
+1. Offline AI ko balanced kiya: ab woh Doll ki exact location track nahi karta; patrol karke nazar padne par hi dhundhta hai.
+2. AI ki speed kam, shuru mein thoda sochne ka time, aur almirah check karne ka time badhaya.
+3. Wall colour match, aankhen band aur half-height se bachne ka zyada mauka milega.
+4. Offline AI Seeker bhi Doll ko dekhne ke baad weapon fekta hai; uska aim perfect nahi aur dobara throw karne se pehle 8–10.5 second rukta hai.
+5. Har player Seeker apna selected weapon (Hammer/Mace/Dagger/Tool) door tak fek sakta hai.
+6. Weapon throw gravity arc ke saath chalta hai, room ki deewar/furniture se takrata hai, aur Practice mein revealed Doll ko hit kar sakta hai.
+7. Online server range 17 metre ki gayi aur pitch aim se upar wall par Doll ko hit kar sakte hain.
+
+Note: ZIP/source checks kiye gaye. Real Android FPS, mobile aiming aur live multiplayer testing device/server par abhi baaki hai.

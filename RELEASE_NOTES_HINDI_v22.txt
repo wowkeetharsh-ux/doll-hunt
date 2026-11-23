@@ -1,0 +1,20 @@
+DOLL HUNT v22 — is update mein kya fix hua
+
+1) Doll chhoti karne par camera bhi neeche nahi jayega. Camera ki normal eye-height 1.72m rakhi hai. Doll ka size alag rahega.
+2) Paint Studio ke top-right mein red × close button hai. Isse sirf paint panel band hoga, Doll wall/ceiling se detach nahi hogi.
+3) Panel band hone par 🎨 PAINT button dikhega. Us par tap karke paint studio dobara khol sakte ho.
+4) Close karne par brush/eraser/sample mode band ho jayega, lekin selected colour/pattern/material settings bani rahengi.
+5) Auto Performance resolution ko 1x se neeche nahi le jayega. Pehle pixel ratio thoda kam hoga; 1x par bhi FPS low rahe to shadows temporarily off hongi.
+6) Texture anisotropy aur fog density improvement se floor/wall detail zyada clear rehni chahiye.
+7) Minimap 10 baar per second redraw hoga, game movement/render loop 60Hz requestAnimationFrame par apne device FPS ke hisaab se chalega.
+
+Test:
+- HIGH graphics select karo.
+- Doll ko 25% height par karo.
+- Wall par attach karo aur camera height check karo.
+- Paint studio kholo; × dabao; confirm karo Doll wahi attached hai.
+- 🎨 PAINT dabakar phir kholo.
+- Panel close karke wall climb ▲▼ use karo.
+- 10 minute gameplay test karo. FPS low ho to MEDIUM try karo.
+
+Static syntax and structural tests passed. Actual Xiaomi Pad 6/Android WebView and live multiplayer test abhi baaki hai.

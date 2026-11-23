@@ -1,0 +1,10 @@
+DOLL HUNT v32 — BUG FIX / STABILITY
+
+1. Round restart ya mode change par purane weapon projectiles clear honge; weapon haath mein wapas visible hoga.
+2. Wall/ceiling par chipke Doll ko AI dekh sakega; sirf Doll ki supporting wall raycast se ignore hogi, baaki walls/furniture block karenge.
+3. AI throw projectile bhi supporting wall se galat tarah block nahi hoga.
+4. Cabinet tak pahunchne mein AI atke to alternate side se approach karega; assigned Seeker fail ho to doosra Seeker search sambhalega.
+5. Practice AI blocked cabinet ko kuchh samay skip karke doosra spot check karega, phir retry karega.
+6. Mode change/restart par AI ke purane cooldown, target aur search timers reset honge.
+
+Device par real FPS, touch aur live multiplayer test abhi pending hai.

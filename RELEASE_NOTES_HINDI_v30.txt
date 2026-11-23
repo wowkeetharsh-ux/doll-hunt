@@ -1,0 +1,11 @@
+DOLL HUNT v30 UPDATE
+
+1. CHOOSE SEEKER dabakar ab 4 real 3D Seeker model swipe/arrow se choose karein.
+2. Selected Seeker ki weapon class save hoti hai aur match/practice mein apply hoti hai.
+3. Offline AI Seekers pehle se tez hain aur wall par chipke Doll ki taraf approach karte hain.
+4. Practice AI bots jaldi spots check karte hain.
+5. Bots walls/furniture ke paas rukne ke bajay alternate route try karte hain.
+6. WALL CAMO POWER se wall ka colour/pattern Doll ke visible 3D model par bhi apply hota hai.
+7. Matching camouflage par AI detection range kam hoti hai.
+
+Mobile par actual gameplay, touch aur FPS test abhi karna baaki hai.

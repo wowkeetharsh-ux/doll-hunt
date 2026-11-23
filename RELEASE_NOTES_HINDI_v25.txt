@@ -1,0 +1,15 @@
+DOLL HUNT v25 — REFERENCE HOME ROOM REBUILD
+
+Is version mein sirf wall ka colour nahi badla. Room ka material aur wall detailing dobara banayi gayi hai:
+- Floral wallpaper ko zyada clear contrast diya.
+- Cream raised wall panels, inset frame, chair rail, wooden skirting aur crown moulding.
+- Cyan/teal/lime segmented stained-glass windows.
+- Oak wooden floor ko zyada visible kiya; kitchen tile area chhota kiya.
+- Main room mein sofa, coffee table, sideboard, console aur plant add kiye.
+- Overexposure aur strong fog kam ki, taaki textures white wash-out na hon.
+- Canvas textures par sRGB encoding set ki.
+- Wainscot placement fix ki: panels actual wall ke peeche nahi, room-facing surface par honge.
+
+Purane client gameplay aur Colyseus server/deployment files is package mein rakhe hain.
+
+Testing: JavaScript, CSS, ID references aur ZIP integrity static checks pass. Actual Android/WebGL visual render, Xiaomi Pad 6 FPS aur live multiplayer test abhi pending hain.

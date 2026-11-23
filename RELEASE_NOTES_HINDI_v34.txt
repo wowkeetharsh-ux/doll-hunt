@@ -1,0 +1,23 @@
+DOLL HUNT v34 — COMPLETE SCREEN & UI REDESIGN
+
+This update refreshes the visual layout while preserving the existing game logic, IDs, gameplay handlers, 3D character models, multiplayer setup, server files and assets.
+
+SCREEN UPDATES
+- Main Menu: cinematic hero layout and a clean game-mode panel on desktop; compact two-column mode deck on phone portrait.
+- Player ID screen: redesigned glass panel and clearer player identity display.
+- Doll / Seeker selection: larger 3D model preview, cleaner controls and consistent dark-blue visual theme. Existing swipe, arrow and confirm handlers remain intact.
+- Online Lobby: more readable Hider vs Seeker panels and matchmaking progress.
+- Practice Setup: clearer team-size and difficulty selectors, better selection states.
+- How to Play: structured, responsive information cards.
+- Game Over: redesigned result screen.
+- In-game HUD: refreshed timer, phase, status cards, minimap frame, crosshair, joystick and action buttons. Safe-area and portrait/landscape rules retained.
+
+VALIDATION
+- 11 inline JavaScript blocks passed node --check.
+- CSS parsed without errors.
+- 150 HTML IDs scanned; no duplicate IDs found.
+- Root index.html and Doll_Hunt_v27/index.html are identical.
+- Full ZIP integrity test passed.
+
+NOTE
+A real Android/WebView gameplay and touch-control test has not been performed in this environment.
